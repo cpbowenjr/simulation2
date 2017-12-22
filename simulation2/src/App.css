@@ -2,7 +2,7 @@ body {
   background-color: #afd4c0;
   margin: 0px;
   padding: 0px;
-  font-family: sans-serif;
+  font-family: Open Sans,sans-serif;
   width: 100%;
   height: 100vh;
   min-height: 800px;
@@ -26,4 +26,59 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.image1 {
+  margin-bottom: 50px;
+}
+
+.username {
+  font-size: 20px;
+  margin-bottom: 3px;
+  position: relative;
+  left: -27%;
+  font-weight: 700;
+}
+
+.password {
+  font-size: 20px;
+  margin-bottom: 3px;
+  position: relative;
+  left: -27%;
+  font-weight: 700;
+}
+
+.input1 {
+  font-size: 25px;
+  width: 70%;
+  margin-bottom: 25px;
+  border: 1px solid #519872;
+  outline: none;
+}
+
+.buttonbox {
+  display: block;
+}
+
+.loginbutton {
+  width: 130px;
+  height: 40px;
+  font-size: 14px;
+  border: none;
+  color: black;
+  margin-right: 30px;
+  font-weight: 700;
+  background-color: #8aea92;
+  font-family: Open Sans,sans-serif;
+}
+
+.registerbutton {
+  width: 130px;
+  height: 40px;
+  font-size: 14px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  background-color: #3b5249;
+  font-family: Open Sans,sans-serif;
 }
