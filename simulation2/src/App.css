@@ -1,0 +1,29 @@
+body {
+  background-color: #afd4c0;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100vh;
+  min-height: 800px;
+}
+
+#root{
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  background: white;
+  height: 100vh;
+  width: 50%;
+  min-height: 850px;
+  min-width: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
